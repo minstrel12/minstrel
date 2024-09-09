@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>萌物优先 | 宠物服务</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header>
+        <div class="logo">
+            <h1>萌物优先</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#faq">常见问题</a></li>
+                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#booking">预约</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 首页 -->
+    <section id="home" class="home-section">
+        <div class="hero">
+            <img src="images/main-banner.png" alt="萌物优先主图" class="main-banner">
+            <h2>用心守护，优先关爱您的萌物！</h2>
+            <a href="#services" class="cta-btn">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 服务 -->
+    <section id="services" class="services-section">
+        <h2>我们的服务</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="images/pet-boarding-logo.png" alt="宠物寄养" class="service-logo">
+                <h3>宠物寄养</h3>
+                <p>安全舒适的寄养环境，24小时专业照护。</p>
+                <a href="boarding.html" class="service-link">了解更多</a>
+            </div>
+            <div class="service-item">
+                <img src="images/home-service-logo.png" alt="宠物上门服务" class="service-logo">
+                <h3>宠物上门服务</h3>
+                <p>专业团队上门服务，方便快捷。</p>
+                <a href="home_service.html" class="service-link">了解更多</a>
+            </div>
+            <div class="service-item">
+                <img src="images/health-consultation-logo.png" alt="宠物健康咨询" class="service-logo">
+                <h3>宠物健康咨询</h3>
+                <p>由专业医师提供的在线健康咨询。</p>
+                <a href="consultation.html" class="service-link">了解更多</a>
+            </div>
+            <div class="service-item">
+                <img src="images/pet-matchmaking-logo.png" alt="宠物交友" class="service-logo">
+                <h3>宠物交友</h3>
+                <p>为宠物找到合适的玩伴，享受社交乐趣。</p>
+                <a href="matchmaking.html" class="service-link">了解更多</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about-section">
+        <h2>关于我们</h2>
+        <p>萌物优先致力于为每一个宠物提供无微不至的关怀。我们的团队由热爱宠物的专业人士组成，确保您的宠物获得最佳的照顾。</p>
+    </section>
+
+    <!-- 常见问题 -->
+    <section id="faq" class="faq-section">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+            <h4>如何预约我们的服务？</h4>
+            <p>您可以通过在线预约系统或电话联系我们进行预约。</p>
+        </div>
+        <div class="faq-item">
+            <h4>宠物寄养的费用是多少？</h4>
+            <p>寄养费用根据宠物类型和寄养时间不同，具体请联系客服了解。</p>
+        </div>
+    </section>
+
+    <!-- 预约 -->
+    <section id="booking" class="booking-section">
+        <h2>预约服务</h2>
+        <form>
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">邮箱</label>
+            <input type="email" id="email" name="email" required>
+            <label for="service">选择服务</label>
+            <select id="service" name="service">
+                <option value="boarding">宠物寄养</option>
+                <option value="home_service">上门服务</option>
+                <option value="consultation">健康咨询</option>
+                <option value="matchmaking">宠物交友</option>
+            </select>
+            <label for="date">预约日期</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">提交预约</button>
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2024 萌物优先. 保留所有权利.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
